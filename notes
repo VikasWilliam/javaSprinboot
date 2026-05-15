@@ -1,0 +1,55 @@
+Setup needed to start with JAVA:
+install JDK- Java development Kit
+
+after install
+java -version
+javac -version
+
+
+ Build Tool (MUST for real projects)
+Choose one:
+Maven (easy, widely used)
+Gradle (faster, used in big projects)
+
+👉 Recommendation for you:
+Framework (for backend dev)
+
+You don’t learn plain Java only—use a framework:
+
+🔥 Must learn:
+Spring Boot
+
+This gives you:
+
+REST APIs
+Dependency Injection
+Microservices capability
+=====================================================
+Database setup
+Since you already know backend basics:
+PostgreSQL
+MongoDB
+👉 You already used MongoDB → good advantage
+=====================================================
+🔧 API Testing Tool
+Postman
+=====================================================
+🔁  Version Control
+Git
+Use GitHub/GitLab
+=====================================================
+☁️Optional (but powerful for your profile)
+Since you have DevOps exposure:
+Docker
+Azure CI/CD
+====================
+JVM = Java Virtual Machine, we say java is platform independent because of JVM,
+your OS works on hardware and JVM is in top of OS
+We dont write a code that works directly on hardware or software, If you want to make it work you will need to run your code in JVM
+when we say JAva is platform independent we can run it on any machine irrespective of OS the only think is the machine should have JVM
+JVM only understnds bytecode
+.java file=>compiler javac=>.class bytecode=>JVM=>MAchine code
+JVM automatically handles:
+Garbage collection (no manual memory free)
+Heap & stack management
+👉 JVM is the engine that runs Java bytecode and makes Java platform independent
